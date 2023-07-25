@@ -15,6 +15,7 @@ module.exports = {
         'review-para': '#F3F3F3',
         'footer-para': '#CFCFCF',
         'card-bg': '#F3F3F3',
+        'footer-bg': '#111111'
       }
     },
     container: {
