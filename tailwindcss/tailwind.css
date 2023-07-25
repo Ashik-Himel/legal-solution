@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-garamond font-extrabold text-title;
+  }
+}
+@layer components {
+  .btn {
+    @apply font-semibold;
+  }
+  .btn-primary {
+    @apply bg-primary border-primary text-white;
+  }
+}
